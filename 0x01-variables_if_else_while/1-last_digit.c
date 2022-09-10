@@ -1,9 +1,9 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - prints the last digit of n and prints out whether
- * it is greater than 5, 0 or less than 6 and not 0
+ * main - prints the last digit of n and prints out whether it is
+ * greater than 5, 0 or less than 6
  * Return: 0
  */
 int main(void)

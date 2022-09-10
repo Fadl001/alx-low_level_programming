@@ -3,9 +3,8 @@
 /**
  * main - Entry point for the program
  *
- * return: 0
+ * return: always 0
  */
-
 int main(void)
 {
 	char a = 'a';

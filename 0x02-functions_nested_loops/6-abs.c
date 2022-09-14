@@ -1,8 +1,11 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _abs - value absolute
- * @n: the int to print
- * return: always 0
+ * _abs - absolute value
+ *
+ * @n: The int to print
+ * Return: Always 0
  */
 
 int _abs(int n)
@@ -17,7 +20,7 @@ int _abs(int n)
 	{
 		return (0);
 	}
-
+	
 	else
 	{
 		return (n);

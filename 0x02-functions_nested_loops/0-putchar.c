@@ -1,8 +1,9 @@
+#include <stdio'h>
 #include "main.h"
 
 /**
  * main - entry point for the program
- *
+ * a program that prints _putchar, followed by a new line
  * Return: nothing to return
  */
 

@@ -4,7 +4,7 @@
 /**
  * _isuper - checks for uppercase character
  * @c: Variable text
- * Return: Always 0
+ * Return: always 0
  */
 
 int _isuper(int c)

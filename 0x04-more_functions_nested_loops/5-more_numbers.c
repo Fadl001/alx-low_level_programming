@@ -7,6 +7,7 @@
  *
  * Return: void
  */
+
 void more_numbers(void)
 {
 	int number, tens, units, row;

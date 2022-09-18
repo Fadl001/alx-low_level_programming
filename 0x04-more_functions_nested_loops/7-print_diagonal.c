@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_diagonal - point of entry
  *
@@ -27,7 +28,7 @@ void print_diagonal(int n)
 				}
 			}
 			_putchar('\\');
-			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 }

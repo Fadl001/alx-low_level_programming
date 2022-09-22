@@ -2,20 +2,23 @@
 
 /**
  * string_toupper - change all lowercase letters to uppercase
- * @c: string
- * return: c
+ * @x: string
+ * return: x
  */
 
-char *string_toupper(char *c)
+char *string_toupper(char *x)
 {
-	int i;
+	int length;
 
-	for (i = 0; c[i] != '\0'; i++)
+	length = 0;
+
+	while (x[length] != '\0')
 	{
-		if (c[i] > 96 && c[i] < 123)
+		if (x[length] >= 97 && x[length] <= 122)
 		{
-			c[i] = 32;
+			x[length] = x[length] - 32;
 		}
+		length++;
 	}
-	return (c);
+	return (x);
 }

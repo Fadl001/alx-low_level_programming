@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * rot13 - encoder rot13
- * @s: pointer to string params
+ * rot13 - encodes a string in rot13
+ * @s: string to be encoded
  *
- * return: string 's' rotated
+ * return: the resulting string
  */
 
 char *rot13(char *s)

@@ -6,28 +6,22 @@
  *
  * @a: the name of the array
  * @size: the size of the array
- *
- * Return: nothing
  */
 
 void print_diagsums(int *a, int size)
 {
-	int i = 0;
-	int j = size - 1;
-	int sum1 = 0;
-	int sum2 = 0;
+	int i;
 
-	while (i <= (size * size))
+	unsigned int sum, sum1;
+
+	sum = 0;
+	sum1 = 0;
+
+	for (i = 0; i < size; i++)
 	{
-		sum1 = sum1 + a[1];
-		i = i + size + 1;
+		sum += a[(size * i) + i];
+		sum1 += a[(size * (i + 1)) - (i + 1)];
 	}
 
-	while (j < (size * size - 1))
-	{
-		sum2 += a[j];
-		j = j + size - 1;
-	}
-
-	printf("%d, %d\n", sum1, sum2);
+	printf("%d, %d\n", sum, sum1);
 }

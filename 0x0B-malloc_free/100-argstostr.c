@@ -8,11 +8,12 @@
  * Return: int
  */
 
+
 int _strlen(char *s)
 {
-	int size = 0;
-	for (; s[size] != '\0'; size++)
-		;
+	int size = 0
+		for (; s[size] != '\0'; size++)
+			;
 	return (size);
 }
 
@@ -25,8 +26,9 @@ int _strlen(char *s)
 
 char *argstostr(int ac, char **av)
 {
-	int i = 0, nc = 0, j = 0, cmpy = 0;
+	int i = 0, nc = 0, j = 0, cmpt = 0;
 	char *s;
+
 	if (ac == 0 || av == NULL)
 		return (NULL);
 

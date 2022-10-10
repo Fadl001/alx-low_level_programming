@@ -1,5 +1,4 @@
 #include "dog.h"
-
 #include <stdlib.h>
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
@@ -54,7 +53,7 @@ dog_t *new_dog(char *name, float age, char *owner)
  * @s: first operand &pointer
  *
  * Description: function that returns the length of a string
- * REturn: Alwats 0
+ * Return: Always 0
  */
 int _strlen(char *s)
 {
